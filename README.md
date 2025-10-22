@@ -1,23 +1,7 @@
-## WELCOME TO ( সহজ সরল সিম্পল ) ASSIGNMENT-006
 
-### 📅 Deadline For 60 marks: 9th September, 2025 (11:59 pm ⏱️)
-
-### 📅 Deadline For 50 marks : 13th September , 2025 (6:00 pm⏱️)
-
-### 📅 Deadline For 30 marks: Any time after 13the September , 2025 (6:01 pm⏱️).
-
----
 # Green Earth
-
-
 ## Private Repository: https://classroom.github.com/a/nVZrg5R9 
 
-## Alternative Private Repository: https://classroom.github.com/a/KCGI14ST 
-
-## Alternative Private Repository: https://classroom.github.com/a/JMuIYqgK 
-
-
----
 🌴 API Endpoints
 ---
 1. Get 🌴All Plants
@@ -142,24 +126,6 @@ Clicking a tree name on a card opens a modal with full tree details.
 
     5) Active Button State 
     Highlight active category button when selected.
-
-
-
-🧰 Technology Stack:
-        
-        HTML
-
-        CSS (Vanilla / Tailwind / DaisyUI)
-
-        JavaScript (Vanilla only, no frameworks)
-
-📌 Rules
-✅ At least 5 meaningful commits
-
-❌ No dummy text or Lorem Ipsum — must use relevant content
-
-
-
 
 
 ## 🔗 Submission
