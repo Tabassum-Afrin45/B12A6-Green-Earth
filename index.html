@@ -24,7 +24,7 @@
 
 <body class="h-full max-w-[1920px]">
   <!-- Navigation bar -->
-  <div class="navbar bg-[#15803d] shadow-sm px-17">
+  <div class="navbar bg-[#15803d] shadow-sm px-17 py-3">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -229,13 +229,40 @@
       </div>
     </section>
   </main>
-  <footer>
-    <section class="form">
-       <form action="">
-        
-       </form>
+  <footer class="">
+    <!-- Our impact Section -->
+    <section class="impact-section h-[300px] bg-[#cff0dc]">
+      <h3 class="text-center text-2xl font-semibold pt-15 pb-8">Our Impact</h3>
+      <div class="flex justify-center items-center gap-10">
+      <div class="bg-white h-[100px] w-[300px] rounded-md flex flex-col justify-center items-center">
+        <h3 class="text-[#15803d] font-semibold text-2xl">500K+</h3>
+        <p>Trees Planted</p>
+      </div>
+      <div class="bg-white h-[100px] w-[300px] rounded-md flex flex-col justify-center items-center">
+        <h3 class="text-[#15803d] font-semibold text-2xl">120+</h3>
+        <p>Communities Involved</p>
+      </div>
+      <div class="bg-white h-[100px] w-[300px] rounded-md flex flex-col justify-center items-center">
+        <h3 class="text-[#15803d] font-semibold text-2xl">30+</h3>
+        <p>Countries Reached</p>
+      </div>
+      </div>
     </section>
-  </footer>
-</body>
+    <!-- Form Section -->
+    <section class="form h-[450px] bg-[#166534] flex justify-center items-center">
+        <form action="">
+          <h3 class="text-white text-2xl font-semibold text-center mb-6">Plant a Tree Today</h3>
+          <fieldset class="bg-[#15803d] flex flex-col gap-3 p-8 w-[450px] rounded-md">
+          <input type="text" class="input w-full" placeholder="Your Name" />
+          <input type="email" class="input w-full" placeholder="Your Email Address"/>
+          <select id="trees" class="bg-white rounded-sm border-none p-2 w-full">
+          <option value="" disabled selected>Number of Trees</option>
+          <option value="mango">Mango</option>
+         </select>
+        <button class="btn btn-primary bg-[#facc15] rounded-3xl text-[#15803d]">Donate Now</button>
+        </fieldset>
+        </form>
+    </section>
 
+</body>
 </html>
