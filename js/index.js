@@ -6,11 +6,11 @@ const loadCategory = () => {
     .then((data) => displayCategory(data.categories));
 };
 // Specific Tree
-const loadTree = (id) => {
+const loadTrees = (id) => {
   const url = `https://openapi.programming-hero.com/api/category/${id}`;
   fetch(url)
     .then((res) => res.json())
-    .then((data) => displayTree(data.plants));
+    .then((data) => displayTrees(data.plants));
 }
 // All Plants
 const loadAllPlants = () => {
@@ -36,7 +36,7 @@ const displayCategory = (categories) => {
     categoryContainer.append(categoryCard);
   }
 }
-const displayTree = (plants) => {
+const displayTrees = (plants) => {
   const treeContainer = document.getElementById("card-container")
   treeContainer.innerHTML = '';
   for (let plant of plants) {
