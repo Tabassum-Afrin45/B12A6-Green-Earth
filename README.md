@@ -15,4 +15,4 @@ Ans: Arrow function is a short way to write functions.It uses => to simplify the
 Ans: Destructuring means taking values from array or object in a simple way.It directly extract properties and store them in variables.
 
 #### 5) Explain template literals in ES6. How are they different from string concatenation?
-Ans: Template literals imply using variables inside string with "${}". In string concatenation we use "+" to join strings ,template literals make it easier and cleaner.
+Ans: Template literals imply using variables inside string with "${}". In string concatenation we use "+" to join strings,template literals make it easier and cleaner.
