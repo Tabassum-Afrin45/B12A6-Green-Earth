@@ -22,7 +22,7 @@
 
 <body class="h-full max-w-[1920px]">
   <!-- Navigation bar -->
-  <div class="navbar bg-[#15803d] shadow-sm px-17 py-3">
+  <div class="navbar bg-[#15803d] shadow-sm px-3 md:px-17 py-3">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -82,7 +82,7 @@
     <!-- Choose Your Trees Section-->
     <section class="w-11/12 mx-auto">
       <h2 class="text-center font-semibold text-[30px] pt-16 pb-3">Choose Your Trees</h2>
-      <div class="h-full grid grid-cols-12">
+      <div class="h-full grid grid-cols-1 md:grid-cols-12">
         <!-- Categories -->
         <div class="div-left col-span-2 h-full">
           <h4 class="text-[20px] font-semibold mb-3">Categories</h4>
@@ -91,10 +91,10 @@
           </div>
         </div>
         <!-- All cards -->
-        <div id="card-container" class="div-center col-span-8 h-full grid grid-cols-3 gap-5 px-5">
+        <div id="card-container" class="div-center col-span-8 h-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-5 mt-8 md:mt-0">
         </div>
         <!-- Cart -->
-        <div class="div-right col-span-2 bg-white h-full p-4 rounded-xl">
+        <div class="div-right col-span-2 bg-white h-full p-4 rounded-xl mt-12 md:mt-0">
           <h3 class="font-semibold text-[20px]">Your Cart</h3>
           <div class="flex justify-between items-center bg-[#f0fdf4] p-2 my-2 rounded-md">
             <div>
@@ -110,25 +110,25 @@
         </div>
       </div>
       <!-- Open the modal using ID.showModal() method -->
-<!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
-<dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
-  <div class="modal-box">
-    <div id="detail-container">  
-    </div>
-    <div class="modal-action">
-      <form method="dialog">
-        <!-- if there is a button in form, it will close the modal -->
-        <button class="btn m-2">Close</button>
-      </form>
-    </div>
-  </div>
-</dialog>
+      <!-- <button class="btn" onclick="my_modal_5.showModal()">open modal</button> -->
+      <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box">
+          <div id="detail-container">
+          </div>
+          <div class="modal-action">
+            <form method="dialog">
+              <!-- if there is a button in form, it will close the modal -->
+              <button class="btn m-2">Close</button>
+            </form>
+          </div>
+        </div>
+      </dialog>
     </section>
     <!-- Campaign Section -->
-    <section class="w-8/12 mx-auto px-11">
-      <h2 class="text-center font-semibold text-[30px] pt-16 pb-4">About the Campaign</h2>
-      <div class="flex items-center">
-        <div class="flex-1 rounded-sm">
+    <section class="w-full md:w-8/12 mx-auto px-4 md:px-11">
+      <h2 class="text-center font-semibold text-[25px] md:text-[30px] pt-16 pb-4">About the Campaign</h2>
+      <div class="md:flex items-center">
+        <div class="flex-1 rounded-sm pb-3 md:pb-0">
           <img src="./images/about.png" alt="" class="w-[90%]">
         </div>
         <div class="flex-1">
@@ -146,19 +146,19 @@
   </main>
   <footer class="">
     <!-- Our impact Section -->
-    <section class="impact-section h-[300px] bg-[#cff0dc]">
+    <section class="impact-section pb-4 md:h-[300px] bg-[#cff0dc]">
       <h3 class="text-center text-2xl font-semibold pt-15 pb-8">Our Impact</h3>
-      <div class="flex justify-center items-center gap-10">
+      <div class="flex flex-wrap md:flex-nowrap justify-center items-center gap-10">
         <div class="bg-white h-[100px] w-[300px] rounded-md flex flex-col justify-center items-center">
-          <h3 class="text-[#15803d] font-semibold text-2xl">500K+</h3>
+          <h3 class="text-[#15803d] font-semibold md:text-2xl">500K+</h3>
           <p>Trees Planted</p>
         </div>
         <div class="bg-white h-[100px] w-[300px] rounded-md flex flex-col justify-center items-center">
-          <h3 class="text-[#15803d] font-semibold text-2xl">120+</h3>
+          <h3 class="text-[#15803d] font-semibold md:text-2xl">120+</h3>
           <p>Communities Involved</p>
         </div>
         <div class="bg-white h-[100px] w-[300px] rounded-md flex flex-col justify-center items-center">
-          <h3 class="text-[#15803d] font-semibold text-2xl">30+</h3>
+          <h3 class="text-[#15803d] font-semibold md:text-2xl">30+</h3>
           <p>Countries Reached</p>
         </div>
       </div>
@@ -167,7 +167,7 @@
     <section class="form h-[450px] bg-[#166534] flex justify-center items-center">
       <form action="">
         <h3 class="text-white text-2xl font-semibold text-center mb-6">Plant a Tree Today</h3>
-        <fieldset class="bg-[#15803d] flex flex-col gap-3 p-8 w-[450px] rounded-md">
+        <fieldset class="bg-[#15803d] flex flex-col gap-3 p-8 w-[300px] md:w-[450px] rounded-md">
           <input type="text" class="input w-full" placeholder="Your Name" />
           <input type="email" class="input w-full" placeholder="Your Email Address" />
           <select id="trees" class="bg-white rounded-sm border-none p-2 w-full">
